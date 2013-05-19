@@ -1,0 +1,22 @@
+# TaxThem version 1.0
+
+## Balance that qualifies a player for low, medium, or high tax rate.
+Low-Earner: 100.00
+Medium-Earner: 2500.00
+High-Earner: 5000.00
+
+## Decimal value representing the percent of player's balance that will be collected as tax.
+## Do not use 0 here.  -1 will disable taxing of that bracket.
+Tax-Rate-Low: -1
+Tax-Rate-Medium: -1
+Tax-Rate-High: 0.02
+
+## Time period before taxes will be collected.
+## Time is in seconds.
+Tax-Period: 86400
+Tax-Period-Initial: 600
+
+## Time period to check if a player is to be taxed.
+## Time is in seconds.
+Balance-Update-Period: 18000
+Balance-Update-Period-Initial: 120
