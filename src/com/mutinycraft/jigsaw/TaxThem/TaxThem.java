@@ -36,7 +36,7 @@ public class TaxThem extends JavaPlugin {
     private ConcurrentLinkedQueue<String> taxQueue;
 
 
-    private static final String VERSION = " 1.0";
+    private static final String VERSION = " 1.1";
 
     public void onEnable() {
         log = this.getLogger();

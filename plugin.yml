@@ -1,5 +1,5 @@
 name: TaxThem
 main: com.mutinycraft.jigsaw.TaxThem.TaxThem
-version: 1.0
+version: 1.1
 author: Jigsaw
 description: Tax players at a configurable amount of time at a configurable percentage.
